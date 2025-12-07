@@ -122,7 +122,7 @@ const INITIAL_CATEGORIES = {
 const CATEGORY_STYLES = {
   blue: {
     text: "text-blue-600", bg: "bg-blue-50", border: "border-blue-200",
-    hoverBg: "hover:bg-blue-100", hoverBorder: "hover:border-blue-300",
+    hoverBg: "hover:bg-blue-100", hoverBorder: "hover:border-blue-300", hoverText: "hover:text-blue-600",
     ring: "ring-blue-300", bgActive: "bg-blue-100",
     badgeText: "text-blue-700", badgeBg: "bg-blue-100",
     dotBg: "bg-blue-500", btnBg: "bg-blue-600",
@@ -130,7 +130,7 @@ const CATEGORY_STYLES = {
   },
   amber: {
     text: "text-amber-600", bg: "bg-amber-50", border: "border-amber-200",
-    hoverBg: "hover:bg-amber-100", hoverBorder: "hover:border-amber-300",
+    hoverBg: "hover:bg-amber-100", hoverBorder: "hover:border-amber-300", hoverText: "hover:text-amber-600",
     ring: "ring-amber-300", bgActive: "bg-amber-100",
     badgeText: "text-amber-700", badgeBg: "bg-amber-100",
     dotBg: "bg-amber-500", btnBg: "bg-amber-600",
@@ -138,7 +138,7 @@ const CATEGORY_STYLES = {
   },
   rose: {
     text: "text-rose-600", bg: "bg-rose-50", border: "border-rose-200",
-    hoverBg: "hover:bg-rose-100", hoverBorder: "hover:border-rose-300",
+    hoverBg: "hover:bg-rose-100", hoverBorder: "hover:border-rose-300", hoverText: "hover:text-rose-600",
     ring: "ring-rose-300", bgActive: "bg-rose-100",
     badgeText: "text-rose-700", badgeBg: "bg-rose-100",
     dotBg: "bg-rose-500", btnBg: "bg-rose-600",
@@ -146,7 +146,7 @@ const CATEGORY_STYLES = {
   },
   emerald: {
     text: "text-emerald-600", bg: "bg-emerald-50", border: "border-emerald-200",
-    hoverBg: "hover:bg-emerald-100", hoverBorder: "hover:border-emerald-300",
+    hoverBg: "hover:bg-emerald-100", hoverBorder: "hover:border-emerald-300", hoverText: "hover:text-emerald-600",
     ring: "ring-emerald-300", bgActive: "bg-emerald-100",
     badgeText: "text-emerald-700", badgeBg: "bg-emerald-100",
     dotBg: "bg-emerald-500", btnBg: "bg-emerald-600",
@@ -154,7 +154,7 @@ const CATEGORY_STYLES = {
   },
   violet: {
     text: "text-violet-600", bg: "bg-violet-50", border: "border-violet-200",
-    hoverBg: "hover:bg-violet-100", hoverBorder: "hover:border-violet-300",
+    hoverBg: "hover:bg-violet-100", hoverBorder: "hover:border-violet-300", hoverText: "hover:text-violet-600",
     ring: "ring-violet-300", bgActive: "bg-violet-100",
     badgeText: "text-violet-700", badgeBg: "bg-violet-100",
     dotBg: "bg-violet-500", btnBg: "bg-violet-600",
@@ -162,7 +162,7 @@ const CATEGORY_STYLES = {
   },
   slate: {
     text: "text-slate-600", bg: "bg-slate-50", border: "border-slate-200",
-    hoverBg: "hover:bg-slate-100", hoverBorder: "hover:border-slate-300",
+    hoverBg: "hover:bg-slate-100", hoverBorder: "hover:border-slate-300", hoverText: "hover:text-slate-600",
     ring: "ring-slate-300", bgActive: "bg-slate-100",
     badgeText: "text-slate-700", badgeBg: "bg-slate-100",
     dotBg: "bg-slate-500", btnBg: "bg-slate-600",
@@ -170,7 +170,7 @@ const CATEGORY_STYLES = {
   },
   orange: {
     text: "text-orange-600", bg: "bg-orange-50", border: "border-orange-200",
-    hoverBg: "hover:bg-orange-100", hoverBorder: "hover:border-orange-300",
+    hoverBg: "hover:bg-orange-100", hoverBorder: "hover:border-orange-300", hoverText: "hover:text-orange-600",
     ring: "ring-orange-300", bgActive: "bg-orange-100",
     badgeText: "text-orange-700", badgeBg: "bg-orange-100",
     dotBg: "bg-orange-500", btnBg: "bg-orange-600",
@@ -178,7 +178,7 @@ const CATEGORY_STYLES = {
   },
   cyan: {
     text: "text-cyan-600", bg: "bg-cyan-50", border: "border-cyan-200",
-    hoverBg: "hover:bg-cyan-100", hoverBorder: "hover:border-cyan-300",
+    hoverBg: "hover:bg-cyan-100", hoverBorder: "hover:border-cyan-300", hoverText: "hover:text-cyan-600",
     ring: "ring-cyan-300", bgActive: "bg-cyan-100",
     badgeText: "text-cyan-700", badgeBg: "bg-cyan-100",
     dotBg: "bg-cyan-500", btnBg: "bg-cyan-600",
@@ -186,7 +186,7 @@ const CATEGORY_STYLES = {
   },
   lime: {
     text: "text-lime-600", bg: "bg-lime-50", border: "border-lime-200",
-    hoverBg: "hover:bg-lime-100", hoverBorder: "hover:border-lime-300",
+    hoverBg: "hover:bg-lime-100", hoverBorder: "hover:border-lime-300", hoverText: "hover:text-lime-600",
     ring: "ring-lime-300", bgActive: "bg-lime-100",
     badgeText: "text-lime-700", badgeBg: "bg-lime-100",
     dotBg: "bg-lime-500", btnBg: "bg-lime-600",
@@ -194,7 +194,7 @@ const CATEGORY_STYLES = {
   },
   pink: {
     text: "text-pink-600", bg: "bg-pink-50", border: "border-pink-200",
-    hoverBg: "hover:bg-pink-100", hoverBorder: "hover:border-pink-300",
+    hoverBg: "hover:bg-pink-100", hoverBorder: "hover:border-pink-300", hoverText: "hover:text-pink-600",
     ring: "ring-pink-300", bgActive: "bg-pink-100",
     badgeText: "text-pink-700", badgeBg: "bg-pink-100",
     dotBg: "bg-pink-500", btnBg: "bg-pink-600",
@@ -202,7 +202,7 @@ const CATEGORY_STYLES = {
   },
   indigo: {
     text: "text-indigo-600", bg: "bg-indigo-50", border: "border-indigo-200",
-    hoverBg: "hover:bg-indigo-100", hoverBorder: "hover:border-indigo-300",
+    hoverBg: "hover:bg-indigo-100", hoverBorder: "hover:border-indigo-300", hoverText: "hover:text-indigo-600",
     ring: "ring-indigo-300", bgActive: "bg-indigo-100",
     badgeText: "text-indigo-700", badgeBg: "bg-indigo-100",
     dotBg: "bg-indigo-500", btnBg: "bg-indigo-600",
@@ -210,7 +210,7 @@ const CATEGORY_STYLES = {
   },
   teal: {
     text: "text-teal-600", bg: "bg-teal-50", border: "border-teal-200",
-    hoverBg: "hover:bg-teal-100", hoverBorder: "hover:border-teal-300",
+    hoverBg: "hover:bg-teal-100", hoverBorder: "hover:border-teal-300", hoverText: "hover:text-teal-600",
     ring: "ring-teal-300", bgActive: "bg-teal-100",
     badgeText: "text-teal-700", badgeBg: "bg-teal-100",
     dotBg: "bg-teal-500", btnBg: "bg-teal-600",
@@ -603,7 +603,7 @@ const Variable = ({ id, index, config, currentVal, isOpen, onToggle, onSelect, o
                         e.stopPropagation();
                         setIsAdding(true);
                     }}
-                    className={`w-full flex items-center justify-center gap-1.5 px-3 py-1.5 text-xs ${style.text} ${style.bg} hover:${style.bgActive} rounded border ${style.border} transition-colors font-medium dashed`}
+                    className={`w-full flex items-center justify-center gap-1.5 px-3 py-1.5 text-xs ${style.text} ${style.bg} ${style.hoverBg} rounded border ${style.border} transition-colors font-medium dashed`}
                  >
                     <Plus size={12} /> {t('add_custom_option')}
                  </button>
@@ -712,7 +712,7 @@ const BankGroup = ({ bankKey, bank, onInsert, onDeleteOption, onAddOption, onDel
                     <button 
                         onClick={(e) => { e.stopPropagation(); onInsert(bankKey); }}
                         title={t('insert')}
-                        className={`p-1 ${style.text} bg-white rounded border border-transparent hover:${style.border} transition-colors flex items-center gap-1`}
+                        className={`p-1 ${style.text} bg-white rounded border border-transparent ${style.hoverBorder} transition-colors flex items-center gap-1`}
                     >
                         <Plus size={14} /> 
                         {!isCollapsed && <span className="text-xs font-medium">{t('insert')}</span>}
@@ -726,7 +726,7 @@ const BankGroup = ({ bankKey, bank, onInsert, onDeleteOption, onAddOption, onDel
                                     setIsEditingCategory(!isEditingCategory); 
                                 }}
                                 title={t('category_label')}
-                                className={`p-1 text-gray-400 hover:${style.text} rounded transition-colors opacity-0 group-hover/card:opacity-100`}
+                                className={`p-1 text-gray-400 ${style.hoverText} rounded transition-colors opacity-0 group-hover/card:opacity-100`}
                             >
                                 <Settings size={14} />
                             </button>
